@@ -1,0 +1,19 @@
+/**
+ *  Project SCSS
+ *  Use npm scripts to compile
+ */
+
+/* base */
+@import 'base/_base';
+
+/* layout */
+@import 'layout/_layout';
+
+/* Reset  */
+@import 'reset';
+
+/* UI */
+@import 'libs/_vendor';
+
+/* modules */
+@import 'components/_components';

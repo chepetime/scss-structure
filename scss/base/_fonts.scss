@@ -1,0 +1,51 @@
+/**
+ *  Fonts
+ */
+
+// Fonts Import [Google fonts]
+@import url('https://fonts.googleapis.com/css?family=Lato|Playfair+Display');
+
+// Imported Fonts
+$font-family-lato: 'Lato', sans-serif;
+$font-family-playfair: 'Playfair Display', serif;
+
+// Project Main Font
+$font-titles: $font-family-playfair;
+$font-text: $font-family-lato;
+$font-size-base: 16px;
+$line-height-base: 1;
+
+// Global Font Styles
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: $font-text;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+
+  color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-titles;
+}
+
+p,
+a,
+span,
+ul,
+ol,
+li,
+i,
+b {
+  font-family: $font-text;
+}
