@@ -6,11 +6,11 @@
 /* base */
 @import 'base/_base';
 
+/* Vendor */
+@import 'libs/_vendor';
+
 /* layout */
 @import 'layout/_layout';
 
-/* UI */
-@import 'libs/_vendor';
-
-/* modules */
+/* components */
 @import 'components/_components';
