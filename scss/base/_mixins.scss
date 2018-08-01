@@ -74,9 +74,19 @@ $break-extra-large: 80em; // >= 1280px @ 16px
   }
 }
 
-/**
- * Other
- */
+// Flexbox Container
+
+@mixin flex-container($direction: row, $spacing: space-between, $alignment: null) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $spacing;
+  align-items: $alignment;
+}
+
+// How to apply:
+// @include flex-container();
+// @include flex-container($direction: column, $spacing: space-around);
+
 
 // Border radius
 @mixin radius($radius: 5px) {
